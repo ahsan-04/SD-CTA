@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="main">
+
+    <div class="express-header">
+      <img class="express-header-img" src="img/express banner.webp" alt="">
+    </div>
+
+
+    
+    <div class="vpn-container">
+      <div class="vpnserver-col-7">
+       
+       <div id="regions_div" style="width: 575px; height: 300px;"></div>
+
+      </div>
+
+      <div class="vpnserver-col-3">
+        <div class="vpn-counter-box">
+          <span class="express-text count_numb_cust">158</span><span>Mbps</span>
+          <p>Max Speed</p>
+        </div>
+
+        <div class="vpn-counter-box">
+          <span class="express-text count_numb_cust">3000</span><span>Mbps</span>
+          <p>Servers accesible across 94 Countries</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="vpn-btn-div">
+      <a class="vpn-btn" href="#">Checked Recent Result</a>
+      <a class="vpn-btn-text" href="#">How did we test the speed?</a>
+    </div>
+
+
+    <div class="guarantee-text express-text">30 Days Money Back Guarantee... </div>
+
+
+    <div class="vpn-features">
+      <div class="features-col-4">
+        <h2>Support All 7 OS</h2>
+
+        <div class="os-logo">
+          <img src="img/fire.webp" alt="">
+          <img src="img/apple-os.webp" alt="">
+          <img src="img/linux.webp" alt="">
+          <img src="img/andriod.webp" alt="">
+          <img src="img/chrome.webp" alt="">
+          <img src="img/firefox.webp" alt="">
+          <img src="img/window.webp" alt="">
+        </div>
+      </div>
+
+      <div class="features-col-8">
+        <div class="features-list">
+          <ul>
+            <li>5 Simultaneous Connection</li>
+            <li>Strict Privacy Policy: No Log</li>
+            <li>Advanced VPN server Technology</li>
+          </ul>
+        </div>
+   
+        <img class="devices" src="img/Device.svg" alt="">
+      </div>
+
+    </div>
+
+
+
+    <div class="streaming-platorms">
+      <div class="streaming-text">
+        <h2 class="express-text ">Unblock 1000’s of Streaming Platorms</h2>
+        <p>Enjoy Netflex, Hulu, the BBC and other Sites with a VPN</p>
+      </div>
+
+      <div class="streaming-icon">
+        <img src="img/hotster.webp" alt="">
+        <img src="img/hulu.webp" alt="">
+        <img src="img/peacock.webp" alt="">
+        <img src="img/espn.webp" alt="">
+        <img src="img/disnep.webp" alt="">
+        <img src="img/sling.webp" alt="">
+        <img src="img/paramount.webp" alt="">
+        <img src="img/hbo.webp" alt="">
+        <img src="img/bbc.webp" alt="">
+        <img src="img/fox.webp" alt="">
+        <img src="img/prime.webp" alt="">
+        <img src="img/youtube.webp" alt="">
+        <img src="img/apple-tv.webp" alt="">
+        <img src="img/sky.webp" alt="">
+        <img src="img/more.webp" alt="">
+      </div>
+
+    </div>
+
+    <div class="vpn-container">
+      <div class="vpnserver-col-7">
+        <img src="img/server-map.webp" alt="">
+      </div>
+
+      <div class="vpnserver-col-3">
+        <div class="vpn-counter-box">
+          <h2 class="express-text count_numb_cust">160</h2>
+          <p>Server Locations available globally</p>
+        </div>
+
+        <div class="vpn-counter-box">
+          <h2 class="express-text count_numb_cust">3000</h2>
+          <p>Servers accesible across 94 Countries</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="vpn-iconinfo">
+      <div class="vpn-infobox">
+        <img src="img/test speed.svg" alt="">
+        <p>Lightway Protocol</p>
+      </div>
+      <div class="vpn-infobox">
+        <img src="img/aircove.svg" alt="">
+        <p>Aircove</p>
+      </div>
+      <div class="vpn-infobox">
+        <img src="img/devices.svg" alt="">
+        <p>Media Streamer Tools</p>
+      </div>
+      <div class="vpn-infobox">
+        <img src="img/dns.svg" alt="">
+        <p>Private DNS Accssibility</p>
+      </div>
+      <div class="vpn-infobox">
+        <img src="img/chat support.svg" alt="">
+        <p>24/7 Chat Support</p>
+      </div>
+    </div>
+
+
+    <div id="chart_area" class="wrapper pie-chart">
+
+
+      <div class="pieID--categories pie-chart--wrapper">
+        <h2>IOS Rating</h2>
+        <div class="pie-chart">
+          <div class="pie-chart__pie"></div>
+          <ul class="pie-chart__legend">
+            <li><em>ExpressVPN</em><span>243</span></li>
+            <li><em>NordVPN</em><span>93</span></li>
+            <li><em>PIA VPN</em><span>5</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pieID--operations pie-chart--wrapper">
+        <h2>Android Download</h2>
+        <div class="pie-chart">
+          <div class="pie-chart__pie"></div>
+          <ul class="pie-chart__legend legend2">
+            <li><em>ExpressVPN</em><span>50</span></li>
+            <li><em>ProtonVPN</em><span>10</span></li>
+            <li><em>PIA VPN</em><span>5</span></li>
+            <li><em>PureVPN</em><span>1</span></li>
+            <li><em>CyberGhost</em><span>10</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+
+
+<script defer>
+
+
+  function sliceSize(dataNum, dataTotal) {
+    return (dataNum / dataTotal) * 360;
+  }
+
+  function addSlice(id, sliceSize, pieElement, offset, sliceID, color) {
+    $(pieElement).append("<div class='slice " + sliceID + "'><span></span></div>");
+    var offset = offset - 1;
+    var sizeRotation = -179 + sliceSize;
+
+    $(id + " ." + sliceID).css({
+      "transform": "rotate(" + offset + "deg) translate3d(0,0,0)"
+    });
+
+    $(id + " ." + sliceID + " span").css({
+      "transform": "rotate(" + sizeRotation + "deg) translate3d(0,0,0)",
+      "background-color": color
+    });
+  }
+
+  function iterateSlices(id, sliceSize, pieElement, offset, dataCount, sliceCount, color) {
+    var
+      maxSize = 179,
+      sliceID = "s" + dataCount + "-" + sliceCount;
+
+    if (sliceSize <= maxSize) {
+      addSlice(id, sliceSize, pieElement, offset, sliceID, color);
+    } else {
+      addSlice(id, maxSize, pieElement, offset, sliceID, color);
+      iterateSlices(id, sliceSize - maxSize, pieElement, offset + maxSize, dataCount, sliceCount + 1, color);
+    }
+  }
+
+  function createPie(id) {
+    var
+      listData = [],
+      listTotal = 0,
+      offset = 0,
+      i = 0,
+      pieElement = id + " .pie-chart__pie"
+    dataElement = id + " .pie-chart__legend"
+
+    color = [
+      "#bd0b0b",
+      "#0072c9",
+      "#009100",
+      "#460caa",
+      "#ffc100",
+      "purple",
+      "turquoise",
+      "forestgreen",
+      "navy"
+    ];
+
+    // color = shuffle( color );
+
+    $(dataElement + " span").each(function () {
+      listData.push(Number($(this).html()));
+    });
+
+    for (i = 0; i < listData.length; i++) {
+      listTotal += listData[i];
+    }
+
+    for (i = 0; i < listData.length; i++) {
+      var size = sliceSize(listData[i], listTotal);
+      iterateSlices(id, size, pieElement, offset, i, 0, color[i]);
+      $(dataElement + " li:nth-child(" + (i + 1) + ")").css("border-color", color[i]);
+      offset += size;
+    }
+  }
+
+  function shuffle(a) {
+    var j, x, i;
+    for (i = a.length; i; i--) {
+      j = Math.floor(Math.random() * i);
+      x = a[i - 1];
+      a[i - 1] = a[j];
+      a[j] = x;
+    }
+
+    return a;
+  }
+
+  function createPieCharts() {
+    createPie('.pieID--micro-skills');
+    createPie('.pieID--categories');
+    createPie('.pieID--operations');
+  }
+
+  // createPieCharts();
+
+  let runOnce = false;
+  document.addEventListener('DOMContentLoaded', function () {
+    const target = document.getElementById('chart_area');
+    const targetPos = target.offsetTop;
+    const winHeight = window.innerHeight;
+    const scrollTo = targetPos - winHeight + 100;
+    window.addEventListener('scroll', function () {
+      const scrollPos = window.pageYOffset;
+      if (scrollPos > scrollTo && !runOnce) {
+        createPieCharts();
+        runOnce = true;
+      }
+    });
+  });
+
+    google.charts.load('current', {
+        'packages':['geochart'],
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+       var data = google.visualization.arrayToDataTable([
+     ['Country', 'Server'],
+     
+    
+["United Kingdom",30],
+["United States",30]         
+     
+
+
+     
+   ]);
+        
+         var options = {
+     colorAxis: {
+       colors: ['#cf2e2e',]
+     },
+     backgroundColor: '#F9F8F2',
+     datalessRegionColor: '#E5E5E5',
+     legend: {
+      textStyle: {color: '#000', fontSize: 14}
+     }
+   };
+
+      
+
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+        chart.draw(data, options);
+      }
+
+</script>
+
+
+
+</html>
